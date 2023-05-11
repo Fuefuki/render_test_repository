@@ -20,9 +20,6 @@ module TestRender
     # config.eager_load_paths << Rails.root.join("extras")
 
 	# デプロイするサービスのホストを追加する
-    # config.hosts << 'test_render.onrender.com'
-
-    # 試しにActionDispatch::HostAuthorizationを無視する
-    onfig.middleware.delete ActionDispatch::HostAuthorization
+    config.hosts << 'test_render.onrender.com'
   end
 end
