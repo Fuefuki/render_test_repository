@@ -20,6 +20,6 @@ module TestRender
     # config.eager_load_paths << Rails.root.join("extras")
 
 	# デプロイするサービスのホストを追加する
-    config.hosts << 'xxx.onrender.com'
+    config.hosts << 'test_render.onrender.com'
   end
 end
